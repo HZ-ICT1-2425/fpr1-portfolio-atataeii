@@ -1,0 +1,44 @@
+/* Profile Image Style */
+.imgOption{
+    text-align: center;
+    padding-top: 0.5vh;
+
+}
+.boxDash{
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    background-color: #f1f1f1ef;
+    margin: auto;
+    border-radius: 50px;
+    width: 1200px;
+    height: 700px;
+
+}
+.styledTable {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: 1;
+    padding-top: 10vh;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+.styledTable thead tr {
+    background-color: #62d6ff;
+    color: black;
+    text-align: center;
+}
+.styledTable th,
+.styledTable td {
+    padding: 15px 20px;
+}
+.styledTable tbody tr {
+    border-bottom: 1px solid #0186d1;
+}
+.styledTable tbody tr:nth-of-type(even) {
+    background-color: #e3e3e3;
+}
+.styledTable tbody tr:last-of-type {
+    border-bottom: 10px solid #62d6ff;
+}

@@ -1,0 +1,28 @@
+.boxBlog {
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    background-color: #f1f1f1ef;
+    margin: auto;
+    border-radius: 50px;
+    width: 1200px;
+    height: 2255px;
+
+}
+.imgStudy {
+    position: relative;
+    padding-left: 38%;
+    padding-top: 0.5vh;
+    width: 300px;
+    height: 300px;
+}
+.imgProEx {
+    position: relative;
+    padding-left: 32%;
+    padding-top: 0.5vh;
+    width: 400px;
+    height: 300px;
+}
+.line {
+    text-align: center;
+    color: black;
+}
