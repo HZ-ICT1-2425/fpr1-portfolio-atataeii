@@ -1,0 +1,11 @@
+/* Box Behind Text */
+.boxFaq {
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    background-color: rgba(241, 241, 241, 0.86);
+    margin: auto;
+    border-radius: 50px;
+    width: 1200px;
+    height: 500px;
+
+}
