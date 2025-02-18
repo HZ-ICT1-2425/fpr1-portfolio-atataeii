@@ -1,3 +1,7 @@
+@section('style')
+    <link rel="stylesheet" href="{{ asset('css/dashboard-style.css') }}">
+@endsection
+
 @section('content')
     <section>
         <div class="h1">

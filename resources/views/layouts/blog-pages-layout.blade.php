@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="{{asset('js/side-bar.js')}}"></script>
     <link rel="stylesheet" href="{{ asset('css/main-style.css') }}">
     @yield('style')
     <title>@yield('title')</title>
@@ -13,13 +12,11 @@
 <body>
 
 <header>
-@include('partials.header-nav-side-bar')
+@include('partials.blog-pages-nav-bar')
 </header>
 
 <main>
 @yield('content')
 </main>
-<br>
-@include('partials.footer')
 </body>
 </html>
