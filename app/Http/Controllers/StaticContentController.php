@@ -7,19 +7,19 @@ use Illuminate\Http\Request;
 class StaticContentController extends Controller
 {
     public function home() {
-        return view('staticsPages.home');
+        return view('statics-pages.home');
     }
 
     public function profile() {
-        return view('staticsPages.profile');
+        return view('statics-pages.profile');
     }
 
     public function dashboard() {
-        return view('staticsPages.dashboard');
+        return view('statics-pages.dashboard');
     }
 
     public function faq() {
-        return view('staticsPages.faq');
+        return view('statics-pages.faq');
     }
 
 }

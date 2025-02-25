@@ -1,8 +1,5 @@
-@section('style')
+<x-layout title="FAQ Page">
     <link rel="stylesheet" href="{{ asset('css/faq-style.css') }}">
-@endsection
-
-@section('content')
     <section>
         <div class="h1">
             <h1>FAQ Page</h1></div>
@@ -36,4 +33,4 @@
     </div>
     <br>
     <br>
-@endsection
+</x-layout>

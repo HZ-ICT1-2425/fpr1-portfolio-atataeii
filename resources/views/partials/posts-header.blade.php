@@ -1,3 +1,4 @@
+<header>
 <nav>
     <div class="topnav">
         <a href="{{ route('home') }}" class="{{ request()->is('home') ? 'active' : '' }}">Home</a>
@@ -8,3 +9,4 @@
         <a href="{{ route('posts.show' , 'cloud-connected') }}" class="{{ request()->is('posts/cloud-connected') ? 'active' : '' }}">Cloud connected</a>
         <a href="{{ route('posts.show' , 'cisco-systems') }}" class="{{ request()->is('posts/cisco-systems') ? 'active' : '' }}">Cisco systems</a></div>
 </nav>
+</header>

@@ -1,8 +1,6 @@
-@section('style')
+<x-layout title="profile Page">
     <link rel="stylesheet" href="{{ asset('css/profile-style.css') }}">
-@endsection
 
-@section('content')
     <section>
         <div class="h1">
             <h1>Who am I?</h1></div>
@@ -48,5 +46,4 @@
                 <p><a href="https://github.com/atataeii" text-decoration="none" target="_blank">Github account</a></p></div>
     </div>
     </section>
-@endsection
-
+</x-layout>

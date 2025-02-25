@@ -4,22 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="{{asset('js/side-bar.js')}}"></script>
     <link rel="stylesheet" href="{{ asset('css/main-style.css') }}">
-    @yield('style')
-    <title>@yield('title')</title>
+    <title>{{ $title ?? 'default' }}</title>
 </head>
 
 <body>
-
-<header>
-@include('partials.header-nav-side-bar')
-</header>
-
+@include('partials.posts-header')
 <main>
-@yield('content')
+    {{ $slot }}
 </main>
-<br>
-@include('partials.footer')
 </body>
 </html>

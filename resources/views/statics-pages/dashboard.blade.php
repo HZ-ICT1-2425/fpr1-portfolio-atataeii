@@ -1,8 +1,5 @@
-@section('style')
+<x-layout title="Dashboard Page">
     <link rel="stylesheet" href="{{ asset('css/dashboard-style.css') }}">
-@endsection
-
-@section('content')
     <section>
         <div class="h1">
             <h1>Dashboard Page</h1></div>
@@ -110,4 +107,5 @@
                 </tbody>
             </table>
         </section>
-@endsection
+    </div>
+</x-layout>
