@@ -17,9 +17,4 @@ class StaticContentController extends Controller
     public function dashboard() {
         return view('statics-pages.dashboard');
     }
-
-    public function faq() {
-        return view('statics-pages.faq');
-    }
-
 }
