@@ -13,7 +13,7 @@ class PostController extends Controller
     }
     public function create()
     {
-        return view ('blog-posts.create');
+        return view ('posts.create');
     }
     public function store(Request $request)
     {
@@ -31,8 +31,9 @@ class PostController extends Controller
 
         return redirect('/posts')->with('success', 'New FAQ Created Successfully');
     }
-    public function show($page) {
-        return view('posts.' . $page);
+    public function show(Post $post) {
+        return view('posts.show')->with('post', $post);
+        //return view('posts.' . $page);
     }
     public function edit($id)
     {

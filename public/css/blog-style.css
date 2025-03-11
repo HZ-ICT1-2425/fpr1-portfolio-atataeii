@@ -49,4 +49,14 @@
     position: absolute;
     left: 48.5%;
 }
-
+.showMore-button {
+    text-align: center;
+    color: black;
+    border-radius: 30px;
+    padding: 8px 8px;
+    background-color: #62d6ff;
+    overflow: hidden;
+    text-decoration: none;
+    position: absolute;
+    left: 47.8%;
+}

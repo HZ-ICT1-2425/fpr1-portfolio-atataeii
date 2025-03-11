@@ -6,16 +6,17 @@
     </section>
     <!--Box-->
     <div class="boxBlog">
-        @if(!$posts)
-            <h1 class="h1">This page is empty</h1>
-        @endif
-        @foreach($posts->take(10) as $post)
+        @forelse($posts->take(10) as $post)
             <section>
                 <img src="{!! $post->image_path !!}" alt="Image" class="imgStudy">
                 <br>
                 <div class="p1"> <p>{!! $post->title !!}</p></div>
                 <div class="p2"> <p>{!! $post->body !!}</p></div>
 
+                <a class="showMore-button" href="{{url('posts/' . $post->id)}}">Show more</a>
+                <br>
+                <br>
+                <br>
                 <a class="edit-button" href="{{url('posts/' . $post->id . '/edit')}}">Edit</a>
 
                 <form method="post"  action="{{ url('/posts/' . $post->id) }}">
@@ -29,7 +30,10 @@
                 <br>
                 <div class="line"><h1>------------------------------------------------------------------------------------------</h1></div>
             </section>
-        @endforeach
+            @empty
+                <h1 class="p1">This page is empty</h1>
+            <br>
+        @endforelse
         <a class="newFAQ" href="{{url('posts/create')}}">Create new post</a>
     </div>
 </x-layout>
