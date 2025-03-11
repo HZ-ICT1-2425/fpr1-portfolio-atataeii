@@ -23,7 +23,7 @@
     <br>
     <br>
     <span class="button-area">
-    <button type="submit" class="newFAQ">Save</button>
+    <button type="submit" class="newFAQ" onclick="return functionSave();">Save</button>
         <br>
         <br>
     <a href="{{url('/faq')}}" class="newFAQ">Cancel</a>

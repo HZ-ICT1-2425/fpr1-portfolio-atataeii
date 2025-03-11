@@ -5,7 +5,7 @@
     margin: auto;
     border-radius: 50px;
     width: 1200px;
-    height: 2255px;
+    min-height: 2255px;
 
 }
 .imgStudy {
@@ -26,3 +26,27 @@
     text-align: center;
     color: black;
 }
+.edit-button {
+    text-align: center;
+    color: black;
+    border-radius: 30px;
+    padding: 8px 8px;
+    background-color: #62d6ff;
+    overflow: hidden;
+    text-decoration: none;
+    position: absolute;
+    left: 49%;
+}
+
+.delete-button {
+    text-align: center;
+    color: black;
+    border-radius: 30px;
+    padding: 8px 8px;
+    background-color: #62d6ff;
+    overflow: hidden;
+    text-decoration: none;
+    position: absolute;
+    left: 48.5%;
+}
+

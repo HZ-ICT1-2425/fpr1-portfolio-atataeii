@@ -21,7 +21,7 @@
                     <br>
                     <br>
                     <br>
-                    <button class="delete-button" type="submit">Delete</button>
+                    <button class="delete-button" type="submit" onclick="return functionDelete();">Delete</button>
                 </form>
             @endforeach
         </section>

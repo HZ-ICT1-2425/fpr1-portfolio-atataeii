@@ -16,3 +16,13 @@ window.onclick = function (event) {
     }
   }
 }
+
+function functionDelete() {
+    if(!confirm("Are you sure want to delete this?"))
+        event.preventDefault();
+}
+
+function functionSave(){
+    if(!confirm("Are you sure you want to save it?"))
+        event.preventDefault();
+}

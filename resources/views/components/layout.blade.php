@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="{{asset('js/side-bar.js')}}"></script>
     <link rel="stylesheet" href="{{ asset('css/main-style.css') }}">
+
     <title>{{ $title ?? 'default' }}</title>
 </head>
 
